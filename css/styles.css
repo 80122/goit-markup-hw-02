@@ -1,0 +1,340 @@
+
+:root {
+
+}
+
+
+body {
+    font-family: 'roboto', sans-serif;
+}
+
+.list {
+list-style: none;
+
+}
+
+.link {
+text-decoration: none;
+}
+
+----------HEADER--------------
+
+
+
+.header-logo {
+font-family: 'Raleway' sans-serif;
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.33;
+
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #4D5AE5;
+}
+.header-list {
+}
+
+
+
+.list {
+}
+.header-item {
+
+ }
+.header-link {
+
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+
+letter-spacing: 0.02em;
+color: #2E2F42;
+}
+.link {
+}
+.address {
+}
+.address-list {
+ 
+}
+.address-item {
+
+}
+
+.header-link:hover {
+    color: #4D5AE5;
+    } 
+
+.header-link:focus {
+color: #4D5AE5;
+} 
+.link:hover {
+    color: #4D5AE5;
+    } 
+    .link:focus {
+        color: #4D5AE5;
+        } 
+.address-mail {
+   
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.address-call {
+    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+   
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+
+----------------HERO------------------
+
+.hero {
+}
+.hero-title {
+   
+ background: #2E2F42;
+ 
+ 
+ font-style: normal;
+font-weight: 700;
+font-size: 56px;
+line-height: 1.07;
+
+text-align: center;
+letter-spacing: 0.02em;
+
+color: #FFFFFF;
+
+}
+.hero-btn {
+    background: #4D5AE5;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+
+cursor: pointer;
+display: flex;
+align-items: center;
+letter-spacing: 0.04em;
+color: #FFFFFF;
+}
+
+------------------SLOGAN-------------
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+.slogan-list {
+}
+.slogan-item {
+}
+.slogan-subtitle {
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+  
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+    
+}
+.slogan-desc {
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+---------------IMAGES------------
+
+.images-subtitle {
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11x;
+
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+
+color: #2E2F42;
+}
+
+------------------TEAM----------
+
+.team-subtitle {
+
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+
+color: #2E2F42;
+}
+.team-staff {
+}
+.images-staff {
+}
+.name-staff {
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #2E2F42;  
+}
+.profession-staff {
+
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+
+text-align: center;
+letter-spacing: 0.02em;
+color: #434455;
+}
+
+------------FOOTER------------
+
+.footer-link {
+
+    font-family: 'Raleway' sans-serif;
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.16;
+
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #4D5AE5;
+}
+.footer-desc {
+    
+    background: #2E2F42;
+    font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+
+letter-spacing: 0.02em;
+color: #E7E9FC;
+}
+
+.footer-link {
+font-family: 'Raleway' sans-serif;
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 21px;
+
+
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #4D5AE5;
+
+}
+----------------PAGE2 PORTFOLIO------------
+
+.list {
+}
+
+.link-btn {
+
+    font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+
+cursor: pointer;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.04em;
+color: #4D5AE5;
+
+box-sizing: border-box;
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12px 24px;
+
+width: 101px;
+height: 48px;
+
+background: #F4F4FD;
+border: 1px solid #E7E9FC;
+border-radius: 4px;
+
+    }
+.link {
+}
+.option-btn {
+
+    }
+
+    ----------------IMAGESPORTF-------------
+
+  
+    .images-suptitle {
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+
+letter-spacing: 0.02em;
+color: #2E2F42;
+
+    }
+    .images-subtitle {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5x;
+      
+        letter-spacing: 0.02em;
+        color: #434455;
+         }
