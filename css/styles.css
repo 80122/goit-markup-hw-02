@@ -45,10 +45,9 @@ color: #4D5AE5;
 
  }
 .header-link {
-
-font-style: normal;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
 font-weight: 500;
-font-size: 16px;
 line-height: 1.5;
 
 letter-spacing: 0.02em;
@@ -78,26 +77,22 @@ color: #4D5AE5;
     .link:focus {
         color: #4D5AE5;
         } 
+
 .address-mail {
-   
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
+font-family: 'Roboto', sans-serif;
+line-height: 1.5;
     
-    letter-spacing: 0.02em;
-    color: #434455;
+letter-spacing: 0.02em;
+color: #434455;
 }
 
 .address-call {
     
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
+font-family: 'Roboto', sans-serif;
+line-height: 1.5;
    
-    letter-spacing: 0.02em;
-    color: #434455;
+letter-spacing: 0.02em;
+color: #434455;
 }
 
 
@@ -107,14 +102,11 @@ color: #4D5AE5;
 }
 .hero-title {
    
- background: #2E2F42;
+background: #2E2F42;
  
- 
- font-style: normal;
 font-weight: 700;
 font-size: 56px;
 line-height: 1.07;
-
 text-align: center;
 letter-spacing: 0.02em;
 
@@ -122,11 +114,12 @@ color: #FFFFFF;
 
 }
 .hero-btn {
-    background: #4D5AE5;
+background: #4D5AE5;
+font-family: 'Roboto', sans-serif;
 font-style: normal;
-font-weight: 500;
+font-weight: 600;
 font-size: 16px;
-line-height: 1.5;
+line-height: 1.18;
 
 cursor: pointer;
 display: flex;
@@ -156,33 +149,26 @@ color: #FFFFFF;
 }
 .slogan-subtitle {
 
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-  
-    letter-spacing: 0.02em;
-    color: #2E2F42;
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #2E2F42;
     
 }
 .slogan-desc {
-
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    
-    letter-spacing: 0.02em;
-    color: #434455;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
 }
 
 ---------------IMAGES------------
 
 .images-subtitle {
-font-style: normal;
-font-weight: 700;
+
+font-weight: 600;
 font-size: 36px;
-line-height: 1.11x;
+line-height: 1.1;
 
 text-align: center;
 letter-spacing: 0.02em;
@@ -194,49 +180,44 @@ color: #2E2F42;
 ------------------TEAM----------
 
 .team-subtitle {
-
-font-weight: 700;
-font-size: 36px;
-line-height: 1.11;
-
-text-align: center;
-letter-spacing: 0.02em;
-text-transform: capitalize;
-
-color: #2E2F42;
-}
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 1.11;
+    
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2E2F42;
+    }
 .team-staff {
 }
 .images-staff {
 }
 .name-staff {
 
-    font-style: normal;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 20px;
     line-height: 1.2;
     
     text-align: center;
     letter-spacing: 0.02em;
-    color: #2E2F42;  
+    color: #2E2F42; 
 }
+
 .profession-staff {
 
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-
-text-align: center;
-letter-spacing: 0.02em;
-color: #434455;
+    line-height: 1.5;
+    
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
 
 ------------FOOTER------------
 
 .footer-link {
 
-    font-family: 'Raleway' sans-serif;
+font-family: 'Raleway', sans-serif;
 font-style: normal;
 font-weight: 800;
 font-size: 18px;
@@ -250,23 +231,95 @@ color: #4D5AE5;
 }
 .footer-desc {
     
-    background: #2E2F42;
-    font-style: normal;
-font-weight: 400;
-font-size: 16px;
+background: #2E2F42;
 line-height: 1.5;
-
 letter-spacing: 0.02em;
 color: #E7E9FC;
 }
 
 .footer-link {
-font-family: 'Raleway' sans-serif;
+font-family: 'Raleway', sans-serif;
 font-style: normal;
 font-weight: 800;
 font-size: 18px;
-line-height: 21px;
+line-height: 1.16;
 
+
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #4D5AE5;
+}
+----------------PAGE2 PORTFOLIO------------
+
+.list {
+}
+
+.button-list list {
+   font-weight: 600;
+    line-height: 1.5;
+    display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.04em;
+color: #4D5AE5;
+
+
+}
+
+.option-btn {
+    cursor: pointer;
+
+}
+
+
+    
+
+    ----------------IMAGESPORTF-------------
+
+  
+.images-suptitle-portfolio {
+
+    
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+    
+
+    }
+.images-subtitle-portfolio {
+        
+    line-height: 1.5;
+    
+    letter-spacing: 0.02em;
+    color: #434455;
+    }
+         
+------------------LOGOCOLOR---------
+
+.studio-footer {
+font-family: 'Raleway', sans-serif;
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.16;
+
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #F4F4FD;
+ }
+
+
+.text-web {
+font-family: 'Raleway', sans-serif;
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.16;
 
 display: flex;
 align-items: center;
@@ -275,66 +328,19 @@ text-transform: uppercase;
 color: #4D5AE5;
 
 }
-----------------PAGE2 PORTFOLIO------------
 
-.list {
-}
-
-.link-btn {
-
-    font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-
-cursor: pointer;
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: 0.04em;
-color: #4D5AE5;
-
-box-sizing: border-box;
-
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-padding: 12px 24px;
-
-width: 101px;
-height: 48px;
-
-background: #F4F4FD;
-border: 1px solid #E7E9FC;
-border-radius: 4px;
-
-    }
-.link {
-}
-.option-btn {
-
-    }
-
-    ----------------IMAGESPORTF-------------
-
-  
-    .images-suptitle {
+ .header-studio {
+font-family: 'Raleway', sans-serif;
 font-style: normal;
-font-weight: 500;
-font-size: 20px;
-line-height: 1.2;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.33;
 
-letter-spacing: 0.02em;
+
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
 color: #2E2F42;
+} 
 
-    }
-    .images-subtitle {
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 1.5x;
-      
-        letter-spacing: 0.02em;
-        color: #434455;
-         }
