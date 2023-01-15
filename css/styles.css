@@ -1,16 +1,16 @@
 
 :root {
 
+
 }
 
 
 body {
-    font-family: 'roboto', sans-serif;
+font-family: 'roboto', sans-serif;
 }
 
 .list {
 list-style: none;
-
 }
 
 .link {
@@ -38,59 +38,55 @@ color: #4D5AE5;
 }
 
 
-
-.list {
-}
 .header-item {
 
  }
 .header-link {
-    font-family: 'Raleway', sans-serif;
-    font-style: normal;
+font-family: 'Raleway', sans-serif;
+font-style: normal;
 font-weight: 500;
 line-height: 1.5;
 
 letter-spacing: 0.02em;
 color: #2E2F42;
 }
-.link {
-}
+
 .address {
 }
-.address-list {
+.address-list  {
  
 }
-.address-item {
+.address-item  {
 
 }
 
 .header-link:hover {
-    color: #4D5AE5;
-    } 
+color: #4D5AE5;
+} 
 
 .header-link:focus {
 color: #4D5AE5;
 } 
+
 .link:hover {
-    color: #4D5AE5;
-    } 
-    .link:focus {
-        color: #4D5AE5;
-        } 
+color: #4D5AE5;
+} 
+
+.link:focus {
+color: #4D5AE5;
+} 
 
 .address-mail {
-font-family: 'Roboto', sans-serif;
-line-height: 1.5;
-    
-letter-spacing: 0.02em;
-color: #434455;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
 
 .address-call {
     
-font-family: 'Roboto', sans-serif;
+font-style: normal;
 line-height: 1.5;
-   
 letter-spacing: 0.02em;
 color: #434455;
 }
@@ -154,8 +150,8 @@ font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: #2E2F42;
-    
 }
+
 .slogan-desc {
 line-height: 1.5;
 letter-spacing: 0.02em;
@@ -173,7 +169,6 @@ line-height: 1.1;
 text-align: center;
 letter-spacing: 0.02em;
 text-transform: capitalize;
-
 color: #2E2F42;
 }
 
@@ -206,11 +201,10 @@ color: #2E2F42;
 
 .profession-staff {
 
-    line-height: 1.5;
-    
-    text-align: center;
-    letter-spacing: 0.02em;
-    color: #434455;
+line-height: 1.5;
+text-align: center;
+letter-spacing: 0.02em;
+color: #434455;
 }
 
 ------------FOOTER------------
@@ -222,13 +216,14 @@ font-style: normal;
 font-weight: 800;
 font-size: 18px;
 line-height: 1.16;
-
+text-decoration: none;
 display: flex;
 align-items: center;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4D5AE5;
 }
+
 .footer-desc {
     
 background: #2E2F42;
@@ -244,33 +239,29 @@ font-weight: 800;
 font-size: 18px;
 line-height: 1.16;
 
-
+text-decoration: none;
 display: flex;
 align-items: center;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: #4D5AE5;
+color: #F4F4FD;
 }
 ----------------PAGE2 PORTFOLIO------------
 
-.list {
-}
+
 
 .button-list list {
-   font-weight: 600;
-    line-height: 1.5;
-    display: flex;
+font-weight: 600;
+line-height: 1.5;
+display: flex;
 align-items: center;
 text-align: center;
 letter-spacing: 0.04em;
 color: #4D5AE5;
-
-
 }
 
 .option-btn {
-    cursor: pointer;
-
+cursor: pointer;
 }
 
 
@@ -281,36 +272,33 @@ color: #4D5AE5;
   
 .images-suptitle-portfolio {
 
-    
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
-    
-
     }
 .images-subtitle-portfolio {
         
-    line-height: 1.5;
+line-height: 1.5;
     
-    letter-spacing: 0.02em;
-    color: #434455;
+letter-spacing: 0.02em;
+color: #434455;
     }
          
 ------------------LOGOCOLOR---------
 
 .studio-footer {
-font-family: 'Raleway', sans-serif;
-font-style: normal;
-font-weight: 800;
-font-size: 18px;
-line-height: 1.16;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.16;
 
-display: flex;
-align-items: center;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: #F4F4FD;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #F4F4FD;
  }
 
 
@@ -321,7 +309,7 @@ font-weight: 800;
 font-size: 18px;
 line-height: 1.16;
 
-display: flex;
+
 align-items: center;
 letter-spacing: 0.03em;
 text-transform: uppercase;
@@ -337,7 +325,7 @@ font-size: 18px;
 line-height: 1.33;
 
 
-display: flex;
+
 align-items: center;
 letter-spacing: 0.03em;
 text-transform: uppercase;
