@@ -1,6 +1,7 @@
 
 :root {
-
+    --hero-title-btn: #FFFFFF;
+   --slog-img-teamsubtitls: #2E2F42;
 
 }
 
@@ -105,8 +106,7 @@ font-size: 56px;
 line-height: 1.07;
 text-align: center;
 letter-spacing: 0.02em;
-
-color: #FFFFFF;
+color: var(--hero-title-btn)
 
 }
 .hero-btn {
@@ -121,7 +121,7 @@ cursor: pointer;
 display: flex;
 align-items: center;
 letter-spacing: 0.04em;
-color: #FFFFFF;
+color: var(--hero-title-btn)
 }
 
 ------------------SLOGAN-------------
@@ -149,7 +149,7 @@ font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
-color: #2E2F42;
+color:var(--slog-img-teamsubtitls)
 }
 
 .slogan-desc {
@@ -169,7 +169,7 @@ color: #434455;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: #2E2F42;
+    color: var(--slog-img-teamsubtitls)
 }
 .images-subtitle {
 
@@ -180,33 +180,33 @@ color: #434455;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: #2E2F42;
+    color: var(--slog-img-teamsubtitls)
 }
 
 ------------------TEAM----------
 
 .suppic {
 
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
      
-    text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    color: #2E2F42;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: var(--slog-img-teamsubtitls)
 }
 
 .team-subtitle {
   
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
     
-    text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    color: #2E2F42;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: var(--slog-img-teamsubtitls)
         
     }
 .team-staff {
@@ -215,13 +215,13 @@ color: #434455;
 }
 .name-staff {
 
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 1.2;
+font-weight: 600;
+font-size: 20px;
+line-height: 1.2;
     
-    text-align: center;
-    letter-spacing: 0.02em;
-    color: #2E2F42; 
+text-align: center;
+letter-spacing: 0.02em;
+color: #2E2F42; 
 }
 
 .profession-staff {
@@ -273,8 +273,6 @@ color: #F4F4FD;
 }
 ----------------PAGE2 PORTFOLIO------------
 
-
-
 .button-list list {
 
 }
@@ -302,19 +300,20 @@ font-weight: 500;
  line-height: 1.2;
 letter-spacing: 0.02em;
 color: #2E2F42;
-    }
-    .images-suptitle-portfolio {
+}
 
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-     letter-spacing: 0.02em;
-    color: #2E2F42;
-    }
+.images-suptitle-portfolio {
+
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #2E2F42;
+}
+
 .images-subtitle-portfolio {
         
 line-height: 1.5;
-    
 letter-spacing: 0.02em;
 color: #434455;
     }
@@ -342,7 +341,6 @@ font-style: normal;
 font-weight: 800;
 font-size: 18px;
 line-height: 1.16;
-
 
 align-items: center;
 letter-spacing: 0.03em;
