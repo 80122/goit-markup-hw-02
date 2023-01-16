@@ -6,7 +6,7 @@
 
 
 body {
-font-family: 'roboto', sans-serif;
+font-family: 'Roboto', sans-serif;
 }
 
 .list {
@@ -42,7 +42,7 @@ color: #4D5AE5;
 
  }
 .header-link {
-font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;
 font-style: normal;
 font-weight: 500;
 line-height: 1.5;
@@ -160,22 +160,46 @@ color: #434455;
 
 ---------------IMAGES------------
 
+.suppic{
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+     
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2E2F42;
+}
 .images-subtitle {
 
-font-weight: 600;
-font-size: 36px;
-line-height: 1.1;
-
-text-align: center;
-letter-spacing: 0.02em;
-text-transform: capitalize;
-color: #2E2F42;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+     
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2E2F42;
 }
 
 ------------------TEAM----------
 
+.suppic {
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+     
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2E2F42;
+}
+
 .team-subtitle {
-    font-weight: 600;
+  
+    font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     
@@ -183,6 +207,7 @@ color: #2E2F42;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2E2F42;
+        
     }
 .team-staff {
 }
@@ -251,7 +276,12 @@ color: #F4F4FD;
 
 
 .button-list list {
-font-weight: 600;
+
+}
+
+.option-btn {
+cursor: pointer;
+font-weight: 500;
 line-height: 1.5;
 display: flex;
 align-items: center;
@@ -260,21 +290,25 @@ letter-spacing: 0.04em;
 color: #4D5AE5;
 }
 
-.option-btn {
-cursor: pointer;
-}
-
 
     
 
     ----------------IMAGESPORTF-------------
 
   
-.images-suptitle-portfolio {
+.suppic-portfolio {
+font-weight: 500;
+ font-size: 20px;
+ line-height: 1.2;
+letter-spacing: 0.02em;
+color: #2E2F42;
+    }
+    .images-suptitle-portfolio {
 
+    font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    letter-spacing: 0.02em;
+     letter-spacing: 0.02em;
     color: #2E2F42;
     }
 .images-subtitle-portfolio {
